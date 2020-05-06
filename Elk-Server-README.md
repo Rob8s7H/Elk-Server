@@ -89,11 +89,11 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - Filebeat: Monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 
-![Filebeat Page Example]{Images/1.ProjectFilebeat.png)
+![Filebeat-Page-Example](Images/1.ProjectFilebeat.png)
 
 - Metricbeat: Collects metrics from the operating system and from services running on the server.
 
-![Metricbeat Page Example]{Images/1.ProjectMetricbeat.png)
+![Metricbeat-Page-Example](Images/1.ProjectMetricbeat.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
@@ -101,5 +101,5 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the playbook file to your control node in "/etc/ansible".
 - Update the hosts file to include elk server IP-addess.
-- Run the playbook, and navigate to http://<elk-server Puplic IP>:5601/ to check that the installation worked as expected.
+- Run the playbook, and navigate to http://[elk-server Puplic IP]:5601/ to check that the installation worked as expected.
  
