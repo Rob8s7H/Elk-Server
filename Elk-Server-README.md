@@ -21,6 +21,8 @@ These documents contain the following details:
 
 ### Description of the Topology
 
+![Elk-Server Topology](Images/1.ProjectLayout.png)
+
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly accessable, in addition to restricting access to the network.
@@ -76,7 +78,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[docker-ps](Images\docker-ps.png)
+![docker-ps](Images\docker-ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -89,7 +91,12 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat: Monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
+
+![Filebeat Page Example]{Images\1.ProjectFilebeat.png)
+
 - Metricbeat: Collects metrics from the operating system and from services running on the server.
+
+![Metricbeat Page Example]{Images\1.ProjectMetricbeat.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
