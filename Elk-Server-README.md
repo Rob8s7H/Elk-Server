@@ -63,8 +63,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-it can be set up in minutes using OpenSSH without installing anything on the servers
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually.
 
 The playbook implements the following tasks:
 - Install Docker
