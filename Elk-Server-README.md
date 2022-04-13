@@ -49,7 +49,7 @@ Only the Ansible machine can accept connections from the Internet. Access to thi
 Whitelisted IP addresses: 10.0.0.8, 10.0.0.9, Personal IP
 
 Machines within the network can only be accessed by SSH.
-Only DVWA-VM1 and DVWA-VM2 are allowed to access The Elk-Box? Elk-Box IP: 13.93.205.115
+Only DVWA-VM1 and DVWA-VM2 are allowed to access The Elk-Box. Elk-Box IP: 13.93.205.115
 
 
 A summary of the access policies in place can be found in the table below.
