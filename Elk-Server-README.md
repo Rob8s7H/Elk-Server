@@ -26,7 +26,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly accessable, in addition to restricting access to the network.
 The Load blancer helps ensures a backup in the case of a flaw or missing coverage. 
 A secure jump box ensures remote access for system administrators. 
-It supply continual support and is a reasonable solution when some of your users either have no direct office or data center access.
+It supplies continual support and is a reasonable solution when some of your users either have no direct office or data center access.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the system and system logs.
 Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing
